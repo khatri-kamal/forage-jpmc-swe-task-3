@@ -1,0 +1,254 @@
+diff --git a/package-lock.json b/package-lock.json
+index 8135a72..25ba640 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -12,10 +12,10 @@
+         "@finos/perspective-viewer": "^1.6.2",
+         "@finos/perspective-viewer-d3fc": "^1.6.2",
+         "@finos/perspective-viewer-datagrid": "^1.6.2",
+-        "@types/jest": "^23.3.13",
+-        "@types/node": "^10.12.19",
+-        "@types/react": "^16.9.0",
+-        "@types/react-dom": "^16.0.11",
++        "@types/jest": "^23.3.14",
++        "@types/node": "^10.17.60",
++        "@types/react": "^16.14.43",
++        "@types/react-dom": "^16.9.19",
+         "bootstrap": "^4.2.1",
+         "puppeteer": "^1.19.0",
+         "react": "^16.9.0",
+@@ -25,7 +25,7 @@
+       "devDependencies": {
+         "awesome-typescript-loader": "^5.2.1",
+         "source-map-loader": "^0.2.4",
+-        "typescript": "^3.2.4"
++        "typescript": "^3.9.10"
+       }
+     },
+     "node_modules/@ampproject/remapping": {
+@@ -2309,9 +2309,9 @@
+       "integrity": "sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ=="
+     },
+     "node_modules/@types/react": {
+-      "version": "16.14.29",
+-      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.14.29.tgz",
+-      "integrity": "sha512-I5IwEaefGZbpmmK1J7zHwZe3JkGxcRkc5WJUDWmNySVVovueViRTEUWV7spTvpe96l3nbKD/K6+GxoN69CYb/w==",
++      "version": "16.14.43",
++      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.14.43.tgz",
++      "integrity": "sha512-7zdjv7jvoLLQg1tTvpQsm+hyNUMT2mPlNV1+d0I8fbGhkJl82spopMyBlu4wb1dviZAxpGdk5eHu/muacknnfw==",
+       "dependencies": {
+         "@types/prop-types": "*",
+         "@types/scheduler": "*",
+@@ -2319,9 +2319,9 @@
+       }
+     },
+     "node_modules/@types/react-dom": {
+-      "version": "16.9.16",
+-      "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-16.9.16.tgz",
+-      "integrity": "sha512-Oqc0RY4fggGA3ltEgyPLc3IV9T73IGoWjkONbsyJ3ZBn+UPPCYpU2ec0i3cEbJuEdZtkqcCF2l1zf2pBdgUGSg==",
++      "version": "16.9.19",
++      "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-16.9.19.tgz",
++      "integrity": "sha512-xC8D280Bf6p0zguJ8g62jcEOKZiUbx9sIe6O3tT/lKfR87A7A6g65q13z6D5QUMIa/6yFPkNhqjF5z/VVZEYqQ==",
+       "dependencies": {
+         "@types/react": "^16"
+       }
+@@ -4408,9 +4408,9 @@
+       }
+     },
+     "node_modules/caniuse-lite": {
+-      "version": "1.0.30001373",
+-      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001373.tgz",
+-      "integrity": "sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==",
++      "version": "1.0.30001517",
++      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz",
++      "integrity": "sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==",
+       "funding": [
+         {
+           "type": "opencollective",
+@@ -4419,6 +4419,10 @@
+         {
+           "type": "tidelift",
+           "url": "https://tidelift.com/funding/github/npm/caniuse-lite"
++        },
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/ai"
+         }
+       ]
+     },
+@@ -21978,9 +21982,9 @@
+       "integrity": "sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ=="
+     },
+     "@types/react": {
+-      "version": "16.14.29",
+-      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.14.29.tgz",
+-      "integrity": "sha512-I5IwEaefGZbpmmK1J7zHwZe3JkGxcRkc5WJUDWmNySVVovueViRTEUWV7spTvpe96l3nbKD/K6+GxoN69CYb/w==",
++      "version": "16.14.43",
++      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.14.43.tgz",
++      "integrity": "sha512-7zdjv7jvoLLQg1tTvpQsm+hyNUMT2mPlNV1+d0I8fbGhkJl82spopMyBlu4wb1dviZAxpGdk5eHu/muacknnfw==",
+       "requires": {
+         "@types/prop-types": "*",
+         "@types/scheduler": "*",
+@@ -21988,9 +21992,9 @@
+       }
+     },
+     "@types/react-dom": {
+-      "version": "16.9.16",
+-      "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-16.9.16.tgz",
+-      "integrity": "sha512-Oqc0RY4fggGA3ltEgyPLc3IV9T73IGoWjkONbsyJ3ZBn+UPPCYpU2ec0i3cEbJuEdZtkqcCF2l1zf2pBdgUGSg==",
++      "version": "16.9.19",
++      "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-16.9.19.tgz",
++      "integrity": "sha512-xC8D280Bf6p0zguJ8g62jcEOKZiUbx9sIe6O3tT/lKfR87A7A6g65q13z6D5QUMIa/6yFPkNhqjF5z/VVZEYqQ==",
+       "requires": {
+         "@types/react": "^16"
+       }
+@@ -23720,9 +23724,9 @@
+       }
+     },
+     "caniuse-lite": {
+-      "version": "1.0.30001373",
+-      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001373.tgz",
+-      "integrity": "sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ=="
++      "version": "1.0.30001517",
++      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz",
++      "integrity": "sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA=="
+     },
+     "capture-exit": {
+       "version": "1.2.0",
+diff --git a/package.json b/package.json
+index 8ca3a60..cd12c53 100644
+--- a/package.json
++++ b/package.json
+@@ -7,10 +7,10 @@
+     "@finos/perspective-viewer": "^1.6.2",
+     "@finos/perspective-viewer-d3fc": "^1.6.2",
+     "@finos/perspective-viewer-datagrid": "^1.6.2",
+-    "@types/jest": "^23.3.13",
+-    "@types/node": "^10.12.19",
+-    "@types/react": "^16.9.0",
+-    "@types/react-dom": "^16.0.11",
++    "@types/jest": "^23.3.14",
++    "@types/node": "^10.17.60",
++    "@types/react": "^16.14.43",
++    "@types/react-dom": "^16.9.19",
+     "bootstrap": "^4.2.1",
+     "puppeteer": "^1.19.0",
+     "react": "^16.9.0",
+@@ -35,6 +35,6 @@
+   "devDependencies": {
+     "awesome-typescript-loader": "^5.2.1",
+     "source-map-loader": "^0.2.4",
+-    "typescript": "^3.2.4"
++    "typescript": "^3.9.10"
+   }
+ }
+diff --git a/src/DataManipulator.ts b/src/DataManipulator.ts
+index 7f62295..0816f0d 100644
+--- a/src/DataManipulator.ts
++++ b/src/DataManipulator.ts
+@@ -1,20 +1,32 @@
+ import { ServerRespond } from './DataStreamer';
+ 
+ export interface Row {
+-  stock: string,
+-  top_ask_price: number,
++  price_abc: number,
++  price_def: number,
++  ratio: number,
+   timestamp: Date,
++  upper_bound: number,
++  lower_bound: number,
++  trigger_alert: number | undefined,
+ }
+ 
+ 
+ export class DataManipulator {
+-  static generateRow(serverResponds: ServerRespond[]) {
+-    return serverResponds.map((el: any) => {
+-      return {
+-        stock: el.stock,
+-        top_ask_price: el.top_ask && el.top_ask.price || 0,
+-        timestamp: el.timestamp,
+-      };
+-    })
++  static generateRow(serverResponds: ServerRespond[]): Row {
++    const priceABC = (serverResponds[0].top_ask.price + serverResponds[0].top_bid.price) / 2;
++    const priceDEF = (serverResponds[1].top_ask.price + serverResponds[1].top_bid.price) / 2;
++    const ratio = priceABC / priceDEF;
++    const upperBound = 1 + 0.05;
++    const lowerBound = 1 - 0.05;
++    return {
++      price_abc: priceABC,
++      price_def: priceDEF,
++      ratio,
++      timestamp: serverResponds[0].timestamp > serverResponds[1].timestamp ?
++        serverResponds[0].timestamp : serverResponds[1].timestamp,
++      upper_bound: upperBound,
++      lower_bound: lowerBound,
++      trigger_alert: (ratio > upperBound || ratio < lowerBound) ? ratio : undefined,
++    };
+   }
+ }
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 277797d..6763629 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -1,5 +1,5 @@
+ import React, { Component } from 'react';
+-import { Table } from '@finos/perspective';
++import { Table, TableData } from '@finos/perspective';
+ import { ServerRespond } from './DataStreamer';
+ import { DataManipulator } from './DataManipulator';
+ import './Graph.css';
+@@ -23,10 +23,14 @@ class Graph extends Component<IProps, {}> {
+     const elem = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
+ 
+     const schema = {
+-      stock: 'string',
+-      top_ask_price: 'float',
+-      top_bid_price: 'float',
++      price_abc: 'float',
++      price_def: 'float',
++      ratio: 'float',
+       timestamp: 'date',
++      upper_bound: 'float',
++      lower_bound: 'float',
++      trigger_alert: 'float',
++      
+     };
+ 
+     if (window.perspective && window.perspective.worker()) {
+@@ -36,23 +40,25 @@ class Graph extends Component<IProps, {}> {
+       // Load the `table` in the `<perspective-viewer>` DOM reference.
+       elem.load(this.table);
+       elem.setAttribute('view', 'y_line');
+-      elem.setAttribute('column-pivots', '["stock"]');
+       elem.setAttribute('row-pivots', '["timestamp"]');
+-      elem.setAttribute('columns', '["top_ask_price"]');
++      elem.setAttribute('columns', '["ratio", "lower_bound", "upper_bound", "trigger_alert"]');
+       elem.setAttribute('aggregates', JSON.stringify({
+-        stock: 'distinctcount',
+-        top_ask_price: 'avg',
+-        top_bid_price: 'avg',
++        price_abv: 'avg',
++        price_def: 'avg',
++        ratio: 'avg',
+         timestamp: 'distinct count',
++        upper_bound: 'avg',
++        lower_bound: 'avg',
++        trigger_alert: 'avg',
+       }));
+     }
+   }
+ 
+   componentDidUpdate() {
+     if (this.table) {
+-      this.table.update(
+-        DataManipulator.generateRow(this.props.data),
+-      );
++      this.table.update([
++          DataManipulator.generateRow(this.props.data),
++      ] as unknown as TableData);
+     }
+   }
+ }
